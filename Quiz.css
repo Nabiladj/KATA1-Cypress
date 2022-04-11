@@ -1,0 +1,74 @@
+body {
+    font-family: "font-1", serif;
+    background: beige;
+    height: 100%;
+}
+
+.Titre-Quiz,
+.correction {
+    border: 5px solid rgb(10, 10, 10);
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 10px;
+    background-color: rgb(190, 188, 211);
+}
+
+h1 {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 1.5rem;
+    color: black;
+    text-align: center;
+    font-family: "Parisienne", cursive;
+    height: 85%;
+}
+
+.Q1,
+.Q2 {
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+
+.TitreQ1,
+.TitreQ2 {
+    border: 2px solid rgb(12, 12, 12);
+    padding: 10px;
+    margin-top: 20px;
+}
+
+h2 {
+    text-transform: unset;
+    letter-spacing: 1px;
+    font-size: 1rem;
+    color: black;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    height: 85%;
+    background-color: rgb(127, 236, 255);
+}
+
+input[type="submit"] {
+    cursor: pointer;
+    background: rgb(0, 255, 34);
+    border-radius: 10px;
+    position: relative;
+    left: 0%;
+    height: 85%;
+}
+
+button {
+    grid-area: bt;
+    cursor: pointer;
+    background: rgb(52, 165, 96);
+    border-radius: 20px;
+    position: relative;
+    left: 0%;
+}
+
+#repo1 #repo2 #resultat {
+    visibility: hidden;
+    width: 240px;
+    margin: 10px auto 0;
+    border-radius: 10px;
+}
