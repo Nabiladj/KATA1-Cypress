@@ -31,7 +31,8 @@ h1 {
 }
 
 .TitreQ1,
-.TitreQ2 {
+.TitreQ2,
+.TitreQ3 {
     border: 2px solid rgb(12, 12, 12);
     padding: 10px;
     margin-top: 20px;

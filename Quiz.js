@@ -13,6 +13,7 @@ function calculer() {
         response1.textContent = "La bonne réponse est A";
         repo1.style.background = "red";
     }
+
     if (QR23.checked) {
         score++;
         response2.textContent = "La bonne réponse est STYLE";
@@ -20,6 +21,14 @@ function calculer() {
     } else {
         response2.textContent = "La bonne réponse est STYLE";
         repo2.style.background = "red";
+    }
+    if (QR33.checked) {
+        score++;
+        response3.textContent = "Paris";
+        repo3.style.background = "green";
+    } else {
+        response3.textContent = "La bonne réponse est Paris";
+        repo3.style.background = "red";
     }
     //alert("Votre score est :" + score);
     //document.write("Votre score est :" + score);
@@ -29,5 +38,7 @@ function calculer() {
 let correction = document.getElementById("resultat");
 let response1 = document.getElementById("repo1");
 let response2 = document.getElementById("repo2");
-let QR23 = document.getElementById("QR23");
+let response3 = document.getElementById("repo3");
 let QR11 = document.getElementById("QR11");
+let QR23 = document.getElementById("QR23");
+let QR33 = document.getElementById("QR33").value;

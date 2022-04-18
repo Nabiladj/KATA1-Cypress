@@ -1,0 +1,23 @@
+{
+  "name": "projet1_3i_school---2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Quiz.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nabiladj/PROJET1-3i-SCHOOL.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nabiladj/PROJET1-3i-SCHOOL/issues"
+  },
+  "homepage": "https://github.com/Nabiladj/PROJET1-3i-SCHOOL#readme",
+  "dependencies": {
+    "cypress": "^9.5.4"
+  }
+}
